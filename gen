@@ -1,0 +1,3 @@
+nasm -felf64 -g out.asm
+gcc -no-pie  out.o
+./a.out
